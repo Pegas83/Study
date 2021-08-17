@@ -1,0 +1,12 @@
+print('Введите коэффициенты уравнения a, b , c, d для уравнения вида ax+c=b-dx')
+print('a=')
+a = float(input())
+print('b=')
+b = float(input())
+print('c=')
+c = float(input())
+print('d=')
+d = float(input())
+x = (b-c)/(a+d)
+print('Для уравнения вида', a, 'x+', c, '=', b, '-', d, 'x решением является x=', x)
+

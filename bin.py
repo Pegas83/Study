@@ -1,3 +1,3 @@
 print('Enter a random number')
 num = int(input())
-print(format(num, 'b'))
+print('A number in the binary system is', format(num, 'b'))

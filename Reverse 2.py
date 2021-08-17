@@ -5,4 +5,6 @@ while num > 0:
     dig = num % 10
     x = x + str(dig)
     num = num // 10
+x = int(x)
 print(x)
+print(type(x))

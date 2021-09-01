@@ -41,4 +41,14 @@ for k in range(len(dif_mid)):
         index = k
 #print(years_float[index])
 the_middle_aged = years_float[index]
+print(the_middle_aged)
+print(the_youngest)
+print(the_oldest)
 '''                         Output'''
+for key in dictionary.keys():
+    if dictionary[key][6:10] == str(int(the_middle_aged)):
+        print(key, '- middle age')
+    if dictionary[key][6:10] == str(int(the_youngest)):
+        print(key, '- the youngest')
+    if dictionary[key][6:10] == str(int(the_oldest)):
+        print(key, '- the oldest')
